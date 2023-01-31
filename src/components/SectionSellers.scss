@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.section-sellers{
+  padding: 8em;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  .title-section{
+    text-align: center;
+    .discover{
+      font-size: 3.5em;
+      text-transform: capitalize;
+      font-family: 'Great Vibes', cursive;
+      color: var(--yellow);
+      margin-bottom: 0px;
+      line-height: 15px;
+    }
+    .seller{
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 3em;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    .description{
+      color: gray;
+    }
+  }
+  .wrapper{
+    .image{
+      height: 200px;
+      margin: 0em 1em;
+      background-size: cover;
+      background-position: center;
+    }
+    .title{
+      text-align: center;
+      margin: 1em 0px;
+      font-size: 1em;
+      text-transform: uppercase;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    .text{
+      text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+      color: gray;
+      padding: 0px 20px;
+    }
+    .price{
+      font-size: 1.5em;
+      color: var(--yellow);
+      text-align: center;
+    }
+    .add-button{
+      text-align: center;
+      background-color: transparent;
+      padding: 0.5em 1em;
+      text-transform: capitalize;
+      border: 1px solid var(--yellow);
+      color: var(--yellow);
+      font-size: 0.8em;
+      transition: 0.5s;
+    }
+    .add-button:hover{
+      background-color: var(--yellow);
+      color: white;
+    }
+  }
+}
+@media (max-width: 576px){
+  .section-sellers{
+    padding: 4em 2em;
+    .wrapper{
+      margin-top: 3em;
+    }
+  }
+}

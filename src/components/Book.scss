@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.book-container{
+  background-color: black;
+  position: relative;
+  padding: 1.5em 0em 1.5em 10em;
+  font-family: 'Josefin Sans', sans-serif;
+  .content{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    .blocks{
+      width: 210px;
+      display: flex;
+      .icon{
+        color: var(--yellow);
+        font-size: 1.3em;
+      }
+      .info{
+        padding-left: 1em;
+        .title{
+          font-weight: 600;
+          font-size: 1em;
+          color: white;
+        }
+        .description{
+          color: gray;
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+  .book-content{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    background-color: var(--yellow);
+    height: 300px;
+    z-index: 100;
+    padding: 2em;
+    .title{
+      text-transform: uppercase;
+      font-size: 1em;
+      color: white;
+      font-weight: 600;
+    }
+    form{
+      input{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        outline: none;
+        width: 100%;
+        margin: 10px 5px;
+        color: white;
+        padding-bottom: 10px;
+        font-weight: 600;
+        font-size: 0.9em;
+      }
+      input::placeholder{
+        color: white;
+        font-weight: 600;
+        font-size: 0.9em;
+      }
+      button{
+        width: 100%;
+        border: none;
+        font-weight: 600;
+      }
+    }
+  }
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+@media (max-width:576px){
+  .book-container{
+    padding: 1em;
+    .content{
+      flex-direction: column;
+      .blocks{
+        width: 100%;
+      }
+    }
+    .book-content{
+      position: relative;
+      width: 100%;
+      height: auto;
+      form{
+        button{
+          padding: 1em;
+          font-weight: 400;
+          margin-top: 1em;
+        }
+      }
+    }
+  }
+}

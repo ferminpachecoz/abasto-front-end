@@ -1,0 +1,49 @@
+.section-numbers{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  .shadow{
+    padding: 10em 6em 6em 6em;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    .wrapper{
+      text-align: center;
+      .icon{
+        padding: 4em 2em 2em 2em;
+        border: 1px solid var(--yellow);
+        transition: 0.8s;
+        i{
+          font-size: 3em;
+          color: var(--yellow);
+        }
+      }
+      .icon:hover{
+        border-radius: 100%;
+        background-color: var(--yellow);
+        i{
+          color: white;
+        }
+      }
+      .number{
+        margin-top: 1em;
+        font-size: 2em;
+        font-weight: 600;
+        color: var(--yellow);
+      }
+      .title{
+        font-weight: 600;
+      }
+    }
+  }
+}
+@media (max-width: 576px){
+  .section-numbers{
+    .shadow{
+      padding: 4em 0em;
+      .wrapper{
+        margin-bottom: 3em;
+      }
+    }
+  }
+}

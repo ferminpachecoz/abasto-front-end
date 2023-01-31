@@ -1,0 +1,36 @@
+.section-services{
+  background-color: var(--yellow);
+  padding: 8em;
+  .wrapper{
+    margin: 0px;
+    text-align: center;
+    margin: 0em 15px;
+    .icon{
+      padding: 3.5em 2em 2em 2em;
+      border: 1px solid #1d150b;
+      i{
+        font-size: 3em;
+        margin: 0px;
+        color: #1d150b;
+      }
+    }
+    .title{
+      margin-top: 3em;
+      font-size: 1.2em;
+      color: #1d150b;
+      font-weight: 600;
+    }
+    .description{
+      color: #1d150b;
+      font-size: 0.9em;
+    }
+  }
+}
+@media (max-width: 576px){
+  .section-services{
+    padding: 5em 2em;
+    .wrapper{
+      margin: 1em 0em;
+    }
+  }
+}
