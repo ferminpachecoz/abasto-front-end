@@ -3,9 +3,6 @@
   top: 0;
   left: 0;
   width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 1em 10em;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   background-color: black;
@@ -53,6 +50,9 @@
   .responsive-nav{
     display: none;
   }
+  .responsive-menu{
+    display: none;
+  }
 }
 @media (max-width: 576px){
   .header{
@@ -61,12 +61,28 @@
       display: none;
     }
     .responsive-nav{
-      display: block;
+      display: flex;
+      justify-content: end;
       span{
         margin-right: 1em;
         i{
           font-size: 2em;
           font-weight: 900;
+        }
+      }
+    }
+    .responsive-menu{
+      display: block;
+      width: 100%;
+      ul{
+        li{
+          text-align: center;
+          margin-top: 10px;
+          a{
+            color: white;
+            text-transform: uppercase;
+            font-weight: 500;
+          }
         }
       }
     }

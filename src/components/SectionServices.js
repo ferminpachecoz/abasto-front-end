@@ -6,17 +6,17 @@ export default function SectionServices() {
     {
       icon: "bi bi-menu-down",
       title: "EASY TO ORDER",
-      description: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+      description: "Choose from daily menu of fresh, healthy meals with just a few clicks. Delivered right to your door."
     },
     {
       icon: "bi bi-truck",
       title: "FASTEST DELIVERY",
-      description: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+      description: "Your daily menu is prepared fresh and delivered straight to your office, so you can enjoy delicious, healthy meals without delay."
     },
     {
       icon: "bi bi-egg-fried",
-      title: "QUALITY COFFEE",
-      description: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+      title: "QUALITY MEALS",
+      description: "Abasto Bistro delivers the highest quality meals, made with fresh ingredients and expertly crafted to satisfy every palate."
     },
   ]
   return (

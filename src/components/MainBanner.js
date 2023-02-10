@@ -15,8 +15,8 @@ export default function MainBanner() {
       <div className='shadow'>
         <div className='wrapper'>
           <p className='subtitle'>Welcome</p>
-          <h1 className='title'>Creamy Hot and Ready to Serve</h1>
-          <p className='description'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          <h1 className='title'>Fueling the Workday with Fresh, Delicious Meals</h1>
+          <p className='description'>Elevate your workday with Abasto Daily Eats - fresh, nutritious meals delivered daily, bringing variety to your lunch routine.</p>
           <div>
             <button className='button-left'>Order Now</button>
             <button className='button-right'>View Menu</button>

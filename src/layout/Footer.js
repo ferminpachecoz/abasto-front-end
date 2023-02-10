@@ -6,7 +6,7 @@ export default function Footer() {
     <div className='footer-container'>
       <div className='col-12 col-md-3 about'>
         <p className='box-title'>About us</p>
-        <p className='description'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <p className='description'>We deliver daily, healthy meals straight to your door. Join us on our mission to simplify and enhance your wellness.</p>
         <div className='d-flex justify-content-start align-items-center'>
           <span><i class="bi bi-facebook"></i></span>
           <span><i class="bi bi-twitter"></i></span>

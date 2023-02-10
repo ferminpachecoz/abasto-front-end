@@ -5,25 +5,25 @@ export default function SectionSellers() {
   let items=[
     {
       image: "food/IMG_8000.jpg",
-      title: "coffee capuccino",
+      title: "Beef Fried Rice",
       text: "A small river named Duden flows by their place and supplies",
       price: "5.90"
     },
     {
       image: "food/IMG_8001.jpg",
-      title: "coffee capuccino",
+      title: "chicken mattone",
       text: "A small river named Duden flows by their place and supplies",
       price: "5.90"
     },
     {
       image: "food/IMG_8006.jpg",
-      title: "coffee capuccino",
+      title: "Pork Chuletas",
       text: "A small river named Duden flows by their place and supplies",
       price: "5.90"
     },
     {
       image: "food/IMG_8003.jpg",
-      title: "coffee capuccino",
+      title: "Beef Milanese",
       text: "A small river named Duden flows by their place and supplies",
       price: "5.90"
     },
@@ -32,8 +32,8 @@ export default function SectionSellers() {
     <div className='section-sellers' style={{backgroundImage: "url('bg_4.jpg.webp')"}}>
       <div className='title-section'>
         <p className='discover'>discover</p>
-        <p className='seller'>best coffee sellers</p>
-        <p className='description'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <p className='seller'>best sellers</p>
+        <p className='description'>Our daily menu features the best sellers at Abasto Bistro: delicious meat, fresh fish, and flavorful veggie plates, all expertly crafted to perfection.</p>
       </div>
       <div className='d-flex flex-column flex-md-row justify-content-evenly align-items-center'>
         {

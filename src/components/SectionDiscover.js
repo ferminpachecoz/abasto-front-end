@@ -10,7 +10,7 @@ export default function SectionDiscover() {
           <p className='menu'>our menu</p>
         </div>
         <div className='description'>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p>Abasto Bistro's daily menu is a celebration of fresh, healthy ingredients. Each plate is expertly crafted to deliver the perfect balance of flavor and nutrition, with a focus on wholesome and delicious options that incorporate a variety of vegetables, fish, and meat.</p>
         </div>
         <div className='button-container'>
           <button>View Full menu</button>

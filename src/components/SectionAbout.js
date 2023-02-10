@@ -20,7 +20,7 @@ export default function SectionAbout() {
           <p className='story'>our story</p>
         </div>
         <div className='description'>
-          <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+          <p>Abasto Bistro is a premium food service that delivers delicious, healthy, and convenient meals to companies. Our mission is to provide busy professionals with a hassle-free way to enjoy nutritious and flavorful food at work. We understand the importance of variety, which is why we offer daily menus made with fresh, high-quality ingredients. Each week, we deliver a curated selection of dishes that cater to diverse tastes and dietary requirements. With Abasto Bistro, you can be sure that you and your team will have a nourishing and satisfying meal experience every day.</p>
         </div>
       </div>
     </div>
